@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="calculator-container">
+        <section class="calculator" aria-label="Calculator">
+            <header class="calculator-header">
+                <h1>Calculator</h1>
+                <p>Keyboard & Button Controlled</p>
+            </header>
+
+            <!-- Calculator display -->
+            <div class="display-container">
+                <input type="text" id="display" class="display" aria-label="Calculator display" readonly>
+            </div>
+
+            <!-- Calculator buttons -->
+            <div class="button-container">
+                <button class="calculator-button clear-button" id="clearButton">
+                    C
+                </button>
+                <button class="calculator-button delete-button" id="deleteButton">
+                    DEL
+                </button>
+                <button class="calculator-button operator-button" data-value="%">
+                    %
+                </button>
+
+                <button class="calculator-button operator-button" data-value="/">
+                    ÷
+                </button>
+
+
+                <button class="calculator-button number-button" data-value="7">
+                    7
+                </button>
+
+                <button class="calculator-button number-button" data-value="8">
+                    8
+                </button>
+
+                <button class="calculator-button number-button" data-value="9">
+                    9
+                </button>
+
+                <button class="calculator-button operator-button" data-value="*">
+                    *
+                </button>
+
+
+                <button class="calculator-button number-button" data-value="4">
+                    4
+                </button>
+
+                <button class="calculator-button number-button" data-value="5">
+                    5
+                </button>
+
+                <button class="calculator-button number-button" data-value="6">
+                    6
+                </button>
+
+                <button class="calculator-button operator-button" data-value="-">
+                    -
+                </button>
+
+
+                <button class="calculator-button number-button" data-value="1">
+                    1
+                </button>
+
+                <button class="calculator-button number-button" data-value="2">
+                    2
+                </button>
+
+                <button class="calculator-button number-button" data-value="3">
+                    3
+                </button>
+
+                <button class="calculator-button operator-button" data-value="+">
+                    +
+                </button>
+
+
+                <button class="calculator-button number-button zero-button" data-value="0">
+                    0
+                </button>
+
+                <button class="calculator-button number-button" data-value=".">
+                    .
+                </button>
+
+                <button class="calculator-button equals-button" id="equalsButton">
+                    =
+                </button>
+            </div>
+            <footer class="calculator-footer">
+                <p>Use your keyboard or click the buttons</p>
+            </footer>
+        </section>
+    </main>
+<script src="./script.js"></script>
+</body>
+</html>
